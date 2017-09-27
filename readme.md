@@ -8,7 +8,7 @@ You dowload file git, open folder and run command"
 
 
 
-#Referiency
+#Referency
 
 Chip producted by China
 

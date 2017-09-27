@@ -1,4 +1,4 @@
--------
+# Decription
 Program running and installing driver CH340 or CH341 in flatform Ubuntu, Raspberry and Linux OS.
 
 
@@ -8,7 +8,7 @@ You dowload file git, open folder and run command"
 
 
 
-#Referency
+# Referency
 
 Chip producted by China
 

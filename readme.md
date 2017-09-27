@@ -1,49 +1,16 @@
 -------
-cd 
-mkdir driver
-cd driver
-git clone https://github.com/VanXungUIT/ch340-ubuntu-linux.git
-Step 1:
+Program running and installing driver CH340 or CH341 in flatform Ubuntu, Raspberry and Linux OS.
 
-sudo apt-get install linux-generic
 
-Step 2:
+You dowload file git, open folder and run command"
 
-sudo apt-get install v4l2loopback-dkms
-
-Step 3: 
-
-sudo make 
-
-sudo make load
+./ch341-driver.sh or sudo ./ch341-driver.sh
 
 
 
+#Referiency
 
+Chip producted by China
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-==================================
-
-Fix serial Permission in Linux
-
-Run the command:
-
-sudo adduser locker-ghn dialout
-
-After:
-
-sudo chmod a+rw /dev/ttyUSB0 or ttyS0, ttyS1, .... 
+Link driver: 
+http://www.wch.cn/download/CH341SER_LINUX_ZIP.html

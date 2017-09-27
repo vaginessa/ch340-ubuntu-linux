@@ -30,7 +30,11 @@ cd
 sudo adduser $USER dialout
 
 sudo chmod a+rw /dev/ttyUSB0
-
+ 
 sudo chmod a+rw /dev/ttyS1
 
 sudo chmod a+rw /dev/ttyS0
+
+
+sudo rm -rf  driver-ch340
+

@@ -29,7 +29,21 @@ cd
 
 sudo adduser $USER dialout
 
+sudo chmod 755 /dev/isudo adduser $USER dialout
+
 sudo chmod 755 /dev/input/event0
+
+sudo chmod a+rw /dev/ttyUSB0
+
+sudo chmod a+rw /dev/ttyUSB1
+ 
+sudo chmod a+rw /dev/ttyS1
+
+sudo chmod a+rw /dev/ttyS0
+
+
+sudo rm -rf  driver-ch340
+nput/event0
 
 sudo chmod a+rw /dev/ttyUSB0
 
